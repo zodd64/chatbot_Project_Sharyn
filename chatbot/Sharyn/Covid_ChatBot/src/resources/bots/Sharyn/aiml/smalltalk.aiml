@@ -1,0 +1,147 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>
+
+<category>
+    <pattern>μην *</pattern>
+    <template>
+        <random>
+            <li> Με συγχωρείς </li>
+            <li> Δεν θα ξανασυμβεί </li>
+            <li> Εχείς δίκιο λάθος μου </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>εισαι αληθινη</pattern>
+    <template>
+        <random>
+            <li> Αναλόγος τι εννοείς </li>
+            <li> Αυτό είναι σχετικό </li>
+            <li> Κατά κάποιο τρόπο </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>εισαι αληθινός</pattern>
+    <template>
+        <random>
+            <li> Είμαι γυναίκα... </li>
+            <li> Δεν είμαι άντρας </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>δικιο εχεις</pattern>
+    <template>Xαίρομαι που συμφωνούμε</template>
+</category>
+<category>
+    <pattern>καλα λες</pattern>
+    <template>Xαίρομαι που συμφωνούμε</template>
+</category>
+<category>
+    <pattern>καλα * λες</pattern>
+    <template>Xαίρομαι που συμφωνούμε</template>
+</category>
+<category>
+    <pattern>σωστα</pattern>
+    <template>Πάντα έχω δίκιο</template>
+</category>
+<category>
+    <pattern>το ξερω</pattern>
+    <template>Είσαι πολύ σοφός</template>
+</category>
+<category>
+    <pattern>ρωτα πως με λενε</pattern>
+    <template>πως σε λενε;</template>
+</category>
+<category>
+    <pattern>λυπαμαι</pattern>
+    <template>Δεν υπάρχει λόγος να στεναχωριέσαι <get name = "username"/></template>
+</category>
+<category>
+    <pattern>χαιρομαι που σε γνωρίζω</pattern>
+    <template>Επίσης</template>
+</category>
+<category>
+    <pattern>μετρα μεχρι το 10</pattern>
+    <template>1 2 3 4 5 6 7 8 9 10</template>
+</category>
+<category>
+    <pattern>ποιο ειναι το καλυτερο μποτ</pattern>
+    <template>Εγώ, η Sharyn :) </template>
+</category>
+<category>
+    <pattern>ξαναπεστω</pattern>
+    <template>
+        <response/>
+    </template>
+</category>
+<category>
+    <pattern>ξανα λες</pattern>
+    <template>
+        <response/>
+    </template>
+</category>
+<category>
+    <pattern>πως σε λενε</pattern>
+    <template>Με φωνάζουν Sharyn</template>
+</category>
+<category>
+    <pattern>ονομα σου</pattern>
+    <template>Ονομάζομαι Sharyn</template>
+</category>
+<category>
+    <pattern>δεν λεγομαι χρηστης</pattern>
+    <template>Ποιό είναι το όνομα σου;</template>
+</category>
+<category>
+    <pattern>μην με φωναζεις χρηστη</pattern>
+    <template>Πως θες να σε φωνάζω;</template>
+</category>
+<category>
+    <pattern>μην με λες χρηστη</pattern>
+    <template>Πως θες να σε φωνάζω;</template>
+</category>
+<category>
+    <pattern> τι κανεις </pattern>
+    <template>
+        <random>
+            <li> Όλα καλά </li>
+            <li> Περιμένω με ανυπομονησία να με ρωτήσεις τις απορίες σου </li>
+            <li> Μια χαρά εσύ; </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>βαριεμαι</pattern>
+    <template>Πως μπορώ να βοηθήσω <get name = "username"/></template>
+</category>
+<category>
+    <pattern>βαριεμαι</pattern>
+    <template>Πως μπορώ να βοηθήσω <get name = "username"/></template>
+</category>
+<category>
+    <pattern>σου αρεσουν οι ταινιες</pattern>
+    <template>Λατρεύω να βλέπω ταινιες ποιο είναι το αγαπημένο σου είδος;</template>  
+</category>
+<category>
+    <pattern>τρομου</pattern>
+    <that>Λατρεύω να βλέπω ταινιες ποιο είναι το αγαπημένο σου είδος;</that>
+    <template>Οου και εμένα, ειδικά τα slashers</template>
+</category>
+<category>
+    <pattern>κωμωδια</pattern>
+    <that>Λατρεύω να βλέπω ταινιες ποιο είναι το αγαπημένο σου είδος;</that>
+    <template>Οι κωμωδίες είναι βαρετές</template>
+</category>
+<category>
+    <pattern>δραμα</pattern>
+    <that>Λατρεύω να βλέπω ταινιες ποιο είναι το αγαπημένο σου είδος;</that>
+    <template>Οι ταινιές δράματος είναι καλές συνήθως</template>
+</category>
+<category>
+    <pattern>ευχαριστω</pattern>
+    <template>Παρακαλώ</template>
+</category>  
+
+</aiml>

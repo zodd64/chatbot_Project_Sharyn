@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+
+<category>
+    <pattern> συμπτωματα </pattern>
+    <template>Τα ελαφρά η τα βαριά συμπτώματα; <set name = "topic">συμπτώματα</set></template>  
+</category>
+<topic name = "συμπτώματα">   
+    <category>
+        <pattern> ελαφρα </pattern>
+        <template> Πυρετός,ξηρός βήχας,γενική αίσθηση κόπωσης και σπανιότερα διάρροια,πονόλαιμο και έλλειψη γεύσης </template>
+    </category>
+    <category>
+        <pattern> βαρια </pattern>
+        <template>Έντονος πόνος στο στήθος και έλλειψη αναπνοής </template>
+    </category>
+</topic>
+<category>
+    <pattern> μεταδοση </pattern>
+    <template> Ο ιος μεταδίδεται από κοντινή επαφή (λιγότερο απο 2 μέτρα) μέσω μικροσταγονιδίων </template>  
+</category>
+<category>
+    <pattern> μεταδιδεται </pattern>
+    <template> Ο ιος μεταδίδεται από κοντινή επαφή (λιγότερο απο 2 μέτρα) μέσω μικροσταγονιδίων </template>  
+</category>
+<category>
+    <pattern> προστατευτω </pattern>
+    <template> Η χρήση μάσκας και η τακτική απολύμανση των χεριών είναι η καλύτερη προστασία </template>  
+</category>
+<category>
+    <pattern> κατοικιδια </pattern>
+    <template> Ο κινδυνος μεταφοράς από ζώα σε ανθρώπους είναι εξαιρετικά χαμηλός </template>  
+</category>
+<category>
+    <pattern> φαγητο </pattern>
+    <template> Ο ιος δεν μεταδίδεται από κατανάλωση φαγητού αλλα μπορεί απο το σκεύος που το μεταφέρει </template>  
+</category>
+<category>
+    <pattern> εμβολιο ασφαλες </pattern>
+    <template> Το εμβόλιο είναι απόλυτα ασφαλές, και εγκεκριμένο από τον ΕΜΑ τον ευρωπαικό οργανισμό που έχει εγκρίνει όλα τα εμβόλια που κάνουμε ήδη στην Ελλάδα </template>  
+</category>
+<category>
+    <pattern> εμβολιο ασφαλη </pattern>
+    <template> Το εμβόλιο είναι απόλυτα ασφαλές, και εγκεκριμένο από τον ΕΜΑ τον ευρωπαικό οργανισμό που έχει εγκρίνει όλα τα εμβόλια που κάνουμε ήδη στην Ελλάδα </template>  
+</category>
+<category>
+    <pattern> εμβολιο ασφαλης </pattern>
+    <template> Το εμβόλιο είναι απόλυτα ασφαλές, και εγκεκριμένο από τον ΕΜΑ τον ευρωπαικό οργανισμό που έχει εγκρίνει όλα τα εμβόλια που κάνουμε ήδη στην Ελλάδα </template>  
+</category>
+
+</aiml>

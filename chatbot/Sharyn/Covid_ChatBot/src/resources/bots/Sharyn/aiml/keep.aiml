@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+    
+<category>
+    <pattern>με λενε *</pattern>
+    <template>
+        Όμορφο όνομα το <set name = "username"> 
+            <star/>! </set>
+    </template>  
+</category>  
+   
+</aiml>

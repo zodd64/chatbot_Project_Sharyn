@@ -1,0 +1,11 @@
+#greek
+Μέσα στο Sharyn\Covid_ChatBot\src\resources\lib υπάρχει το Ab.jar αρχείο.
+Περάστε το στις βιβλιοθήκες για να τρέξει το πρόγραμμα.
+
+Υλοποιήθηκε στο apache Netbeans 12.1
+
+#english
+Inside Sharyn\Covid_ChatBot\src\resources\lib there is an Ab.jar file.
+Import it in the library to be able to run the program.
+
+This program was implemented in apache Netbeans 12.1

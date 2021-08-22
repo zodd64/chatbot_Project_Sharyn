@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>
+
+<category>
+    <pattern> γεια </pattern>
+    <template>
+        <random>
+            <li> Γειά </li>
+            <li> Γειά σου </li>
+            <li> Χαίρετε </li>
+            <li> Γειά και σε εσένα </li>
+            <li> Γειά σου τι κάνεις; </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern> χαιρετε </pattern>
+    <template>
+        <random>
+            <li> Γειά </li>
+            <li> Γειά σου </li>
+            <li> Χαίρετε </li>
+            <li> Γειά σου τι κάνεις; </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern> καλησπερα </pattern>
+    <template>
+        <random>
+            <li> Καλησπέρα </li>
+            <li> Καλησπέρα και σε εσένα </li>
+            <li> Γειά </li>
+            <li> Γειά σου </li>
+            <li> Χαίρετε </li>
+            <li> Γειά σου τι κάνεις; </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern> καλημερα </pattern>
+    <template>
+        <random>
+            <li> Καλημερα </li>
+            <li> Καλημερα και σε εσένα </li>
+            <li> Γειά </li>
+            <li> Γειά σου </li>
+            <li> Χαίρετε </li>
+            <li> Γειά σου τι κάνεις; </li>
+        </random>
+    </template>
+</category>
+
+</aiml>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+
+<category>
+    <pattern>αστειο</pattern>
+    <template>Τι είναι αστείο;</template>
+</category>
+<category>
+    <pattern>πες αστειο</pattern>
+    <template>
+        <random>
+            <li>Ποιο είναι το αντίθετο της Μυτιλήνης; -ΜηΤηΔένεις</li>
+            <li>Πώς λέγεται ο Γαλάτης DJ; – Ινδεμίξ</li>
+            <li>Γιατί οι βατραχάνθρωποι βουτάνε προς τα πίσω; -Γιατί από μπροστά είναι η βάρκα!</li>
+        </random>
+    </template>
+</category>
+
+</aiml>
